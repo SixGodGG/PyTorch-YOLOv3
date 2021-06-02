@@ -133,7 +133,9 @@ Add `--pretrained_weights weights/darknet53.conv.74` to train using a backend pr
 ## Export ONNX and TensorRT Deployment
 
 #### 
-Run the commands below to create a custom model definition, replacing `<num-classes>` with the number of classes in your dataset.
+use export_onnx.py to export an onnx file from pth or weights + cfg, Building An Engine by onnx. \
+
+
 
 
 ## API
