@@ -130,6 +130,11 @@ poetry run yolo-train --model config/yolov3-custom.cfg --data config/custom.data
 
 Add `--pretrained_weights weights/darknet53.conv.74` to train using a backend pretrained on ImageNet.
 
+## Export ONNX and TensorRT Deployment
+
+#### 
+Run the commands below to create a custom model definition, replacing `<num-classes>` with the number of classes in your dataset.
+
 
 ## API
 
